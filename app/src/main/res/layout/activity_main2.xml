@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+    <FrameLayout
+        android:id="@+id/fragmentLayout2"
+        android:layout_width="390dp"
+        android:layout_height="280dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btnFragment3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:padding="10dp"
+        android:text="Fragment3"
+        android:textSize="25sp"
+        android:textStyle="bold">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnFragment4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:padding="10dp"
+        android:text="Fragment4"
+        android:textSize="25sp"
+        android:textStyle="bold">
+
+    </Button>
+    <Button
+        android:id="@+id/btnGo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:padding="10dp"
+        android:text="Go to Activity1"
+        android:textSize="25sp"
+        android:textStyle="bold">
+
+    </Button>
+
+    <EditText
+        android:id="@+id/edtText2"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:layout_marginTop="20dp"
+        android:hint="Tên của bạn: "
+        android:padding="10dp"
+        android:textSize="16sp"
+        tools:ignore="Autofill,HardcodedText,TextFields">
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtView2"
+            android:layout_width="237dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Tên vừa nhập: "
+            android:textSize="25sp"
+            tools:ignore="HardcodedText">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtView3"
+            android:layout_width="146dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:textColor="#f20"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
