@@ -42,9 +42,8 @@ class MainActivity2 : AppCompatActivity() {
             supportFragmentManager.beginTransaction().replace(R.id.fragmentLayout2, Fragment4()).commit()
         }
         btnGo1.setOnClickListener{
-            fragmentViewModel2.setData(edtTen2.text.toString())
-            supportFragmentManager.beginTransaction().replace(R.id.fragmentLayout2, Fragment1()).commit()
-
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
         }
     }
 }
